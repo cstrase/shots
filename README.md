@@ -14,4 +14,7 @@ shots uses config file created by AWS CLI e.g.:
 
 ## Running
 
-`pipenv run python shot/shot.py`
+`pipenv run python shot/shot.py <command> <--project=PROJECT>"`
+
+_command_ is list, start, or stop
+_project_ is optional
